@@ -45,10 +45,7 @@ table tr {
 .title-mobile{
 	display: none;
 }
-.mobile-subtitle{
-	font-size: 4em;
-	font-family: 'Open Sans', sans-serif;
-}
+
 .mockup-td-for-mobile{
 	margin-left: 70%;
 }
