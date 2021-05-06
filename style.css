@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+
+
+body {
+  background-color: #212224;
+  width: 640;
+  color: white;
+}
+h3{
+	margin-left:auto; 
+    margin-right:auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+}
+h4{
+font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;	
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+q{
+font-family: 'Open Sans', sans-serif;
+font-style: italic;	
+}
+a{
+	color: white;
+	text-decoration: underline;
+}
+.kevinKelly{
+	text-align: right;
+	font-weight: bold;
+}
+table{
+	margin-left:auto; 
+    margin-right:auto;
+	width: 800px;
+}
+table tr {
+	width: 400px;
+}
+.mockup-for-mobile{
+	display: none;
+}
+.title-mobile{
+	display: none;
+}
+.mockup-td-for-mobile{
+	margin-left: 70%;
+}
+
+@media (max-width:1024px) {
+	.title-td{
+		display: none;
+	}
+	.mockup-td{
+		display: none;
+	}
+	.mockup-for-mobile{
+	display: block;	
+	}
+.title-mobile{
+	display: block;
+	text-align: center;
+	margin-left:auto; 
+    margin-right:auto;
+
+}
+}
